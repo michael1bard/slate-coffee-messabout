@@ -1,0 +1,83 @@
+{
+  "current": {
+    "colors_accent_1": "#80411e",
+    "social_twitter_link": "https:\/\/twitter.com\/shopify",
+    "social_facebook_link": "https:\/\/facebook.com\/shopify",
+    "social_instagram_link": "http:\/\/instagram.com\/shopify",
+    "social_youtube_link": "https:\/\/www.youtube.com\/shopify",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Coffee Time",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/logo_w.png",
+          "logo_width": 200,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Navigation",
+              "menu": "main-menu"
+            }
+          },
+          "991c6020-89ee-4345-a0e3-dbf9083fda9b": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Info",
+              "menu": "footer"
+            }
+          },
+          "2212b441-62d4-4754-a75f-444029bea7b6": {
+            "type": "text",
+            "settings": {
+              "heading": "Contact",
+              "subtext": "<p>📍 971 August Lane Monroe,<\/p><p>71201 Louisiana<\/p><p> <\/p><p>📞 318-366-4204<\/p><p> <\/p><p>📧 Hello@coffee.com<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "991c6020-89ee-4345-a0e3-dbf9083fda9b",
+          "2212b441-62d4-4754-a75f-444029bea7b6"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "4 Coffee Lovers",
+          "show_social": true,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  }
+}
